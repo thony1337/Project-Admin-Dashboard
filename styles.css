@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0;
+    height: 100vh;
+}
+.main-content {
+    grid-column-start: 2;
+    grid-row: span 3;
+    background-color: #F0F0F0;
+}
+.sidebar {
+    background-color: #00AFF0;
+    grid-row: span 4;
+}
