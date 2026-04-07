@@ -8,6 +8,7 @@ body {
     grid-column-start: 2;
     grid-row: span 8;
     background-color: #F0F0F0;
+    height: 100%;
 }
 .sidebar {
     display: grid;
@@ -76,4 +77,57 @@ body {
     border: none;
     background-color: #00AFF0;
     color: white;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 50% 50%;
+}
+.your-projects-div {
+  display: grid;
+  grid-row: span 2;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 1fr 3fr 3fr 3fr;
+  padding: 20px;
+  gap: 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.div1, .div2, .div3, .div4, .div5, .div6 {
+    background-color: white;
+    border-radius: 10px;
+}
+.project-div-text {
+    grid-column: span 2;
+    height: 30px;
+    font-size: 30px;
+}
+.announcements-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+    height: 70%;
+    font-size: clamp(10px, 1vw, 12px);
+    box-sizing: border-box;
+}
+.announcements-text {
+    font-size: 30px;
+    margin-top: 50px;
+}
+.announcements-div1 {
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+}
+.announcement1, .announcement2, .announcement3 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.trending-text {
+    margin-top: 50px;
+    font-size: 30px;
 }
