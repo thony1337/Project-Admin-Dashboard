@@ -128,6 +128,27 @@ body {
     grid-template-rows: auto 1fr;
 }
 .trending-text {
-    margin-top: 50px;
+    margin-top: 60px;
     font-size: 30px;
+}
+.trending-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+}
+.trending-container-box {
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+    align-items: end; 
+}
+.trending-profile-container1, .trending-profile-container2, .trending-profile-container3, .trending-profile-container4 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: clamp(10px, 1vw, 8px);
 }
