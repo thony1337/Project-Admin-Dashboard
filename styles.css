@@ -3,6 +3,8 @@ body {
     grid-template-columns: 2fr 5fr;
     margin: 0;
     height: 100vh;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 }
 .main-content {
     grid-column-start: 2;
@@ -20,9 +22,11 @@ body {
     font-size: 15px;
     padding-left: 30px;
     padding-top: 30px;
+    align-items: center;
 }
-.Dashboard {
+.dashboard {
     grid-row: span 2;
+    align-items: center;
 }
 .Communities {
     grid-row: span 2;
@@ -89,9 +93,9 @@ body {
   grid-template-columns: 40% 40%;
   grid-template-rows: 1fr 3fr 3fr 3fr;
   padding: 20px;
-  gap: 30px;
+  gap: 10px;
   margin-bottom: 50px;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .div1, .div2, .div3, .div4, .div5, .div6 {
     background-color: white;
@@ -112,7 +116,7 @@ body {
 }
 .announcements-text {
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .announcements-div1 {
     background-color: white;
@@ -126,6 +130,7 @@ body {
 .announcement1, .announcement2, .announcement3 {
     display: grid;
     grid-template-rows: auto 1fr;
+    border-bottom: 1px solid #ccc;
 }
 .trending-text {
     margin-top: 60px;
@@ -145,10 +150,103 @@ body {
     grid-template-columns: 100px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     box-sizing: border-box;
-    align-items: end; 
+    align-items: end;
+    padding-bottom: 20px; 
 }
 .trending-profile-container1, .trending-profile-container2, .trending-profile-container3, .trending-profile-container4 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     font-size: clamp(10px, 1vw, 8px);
+}
+.trending-container-box p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.div1, .div2, .div3, .div4, .div5, .div6 {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-shadow: inset 8px 0 0 goldenrod
+}
+.project-div1, .project-div2, .project-div3, .project-div4, .project-div5, .project-div6 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+.sidebar > div {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    min-width: 0;
+    min-height: 0;
+    align-items: center;
+    gap: 10px   ;
+}
+.sidebar img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.header-form-logo-container {
+    display: grid;
+    min-width: 0;
+    min-height: 0;
+    justify-content: flex-end;
+    margin-right: 10px;
+    align-items: center;
+}
+.header-form-logo {
+  width: 40px;
+  height: 40px;
+}
+.logo1 {
+    display: grid;
+    min-width: 0;
+    min-height: 0;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.logo1 img {
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+}
+.header-form-profile-img, .header-form-notification {
+    display: grid;
+    min-width: 0;
+    min-height: 0;
+    align-items: center;
+    justify-content: center;
+}
+.header-form-profile-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+}
+.header-form-notification img {
+  width: 30px;
+  height: 30px;
+}
+.trending-image1, .trending-image2, .trending-image3, .trending-image4 {
+    display: grid;
+    min-width: 0;
+    min-height: 0;
+    justify-content: center;
+    align-items: center;
+}
+.trending-container-box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+}
+.your-projects-div * {
+    display: grid;
+    min-width: 0;
+    min-height: 0;
+}
+.your-projects-div img {
+  width: 20px;
+  height: 20px;
 }
