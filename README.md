@@ -14,12 +14,13 @@ Built With
 * HTML5
 * CSS3
 * CSS Grid
-✨ Features
+
+ Features
 
  Fully structured layout using CSS Grid
  Responsive image handling (object-fit, containment fixes)
  Clean spacing and alignment system
-🧩 Modular sections:
+* Modular sections:
 * Sidebar
 * Header
 * Main content are
@@ -28,4 +29,4 @@ Built With
  UI details:
 * Custom borders and separators
 * Typography hierarchy
-⚙️ Overflow handling and layout stability improvements
+* Overflow handling and layout stability improvements
